@@ -1,8 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
-.container, header{
+@import url('https://fonts.googleapis.com/css?family=Frijole');
+@font-face {
+    font-family: "Pixeltext";
+    src: url('BPdotsUnicase.otf');
+}
+.container{
+    font-family: Pixeltext;
     text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
     color: antiquewhite;
+}
+header{
+    text-align: center;
+    font-family: "Baskerville Old Face", cursive;
+    color: red;
+}
+h1:first-letter{
+    font-family: "frijole", cursive;
+    font-size: 75px;
 }
 body{
     background-color: #2b2b2b
